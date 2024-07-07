@@ -6,6 +6,9 @@
     "wdth" 100;
 }
 /* color */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .dark-2{
     color: #474747;
 }
@@ -30,6 +33,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
 }
 /* nav bar area */
 nav{
@@ -75,9 +85,143 @@ nav li a{
     font-size: 55px;
 }
 .banner-paragraph{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
+    padding: 20px 0;
 }
 .banner-pic{
-    width: 200px;
+    width: 400px;
+    height: 400px;
+}
+.btn-secondary{
+    color: #FD6E0A;
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 2px solid #FD6E0A;
+}
+/* about area */
+.section-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 16px;
+    color: #757575;
+    padding: 10px 0;
+}
+.about{
+    border-radius: 10px;
+    padding: 90px 100px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item-title{
+    color: #757575;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.item-description{
+    font-size: 20px;
+    color: #181818;
+    font-weight: bold;
+    padding-top: 5px;
+}
+/* skills area */
+.skills{
+    padding: 30px;
+}
+.skills-container{
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skills-title{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 0;
+}
+.skills-description{
+    color: #757575;
+    font-size: 15px;
+    font-weight: 400;
+}
+/* resume area */
+.resume{
+    padding: 20px 0;
+}
+.resume-container{
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+.resume-column-title{
+    color: #474747;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.experience-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.experience-subtitle{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.experience-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+    padding-bottom: 15px;
+}
+/* footer area */
+footer{
+    padding: 70px 90px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input{
+    margin: 20px 0;
+}
+footer input[type="text"]{
+    height: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 100%;
+    display: block;
+    background-color: white;
+    border: none;
+}
+footer input[type="email"], footer input[type="email"], footer textarea{
+    height: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 100%;
+    display: block;
+    background-color: white;
+    border: none;
 }
